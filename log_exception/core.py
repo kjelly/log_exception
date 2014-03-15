@@ -24,6 +24,8 @@ def try_copy(data):
 
 
 def read_source_code_from_file(file_name, lineno):
+    if not os.path.exists(file_name):
+        return ''
     with open(file_name, 'r') as ftr:
         source_code = ftr.readlines()
         return source_code[lineno - 1].strip()
