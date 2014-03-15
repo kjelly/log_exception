@@ -13,7 +13,7 @@ Installation
 --------------
 
 ```sh
-pip install git+https://github.com/ya790206/log_exceptio
+pip install git+https://github.com/ya790206/log_exception
 ```
 
 Quick start
